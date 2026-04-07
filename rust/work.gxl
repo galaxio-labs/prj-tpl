@@ -1,4 +1,4 @@
-extern mod rust { path = "./_gal/"; }
+extern mod rust,ver { path = "@{PATH}"; }
 
 mod envs  {
    env _common  : rust_env.init   {

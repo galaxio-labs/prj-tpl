@@ -1,4 +1,4 @@
-extern mod vfm { path = "./_gal/"; }
+extern mod ver { path = "@{PATH}"; }
 mod sys_ver_adm {
   #[auto_load(entry)]
   flow __into_sys_ver_adm | ver.use {

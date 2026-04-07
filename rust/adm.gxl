@@ -1,4 +1,4 @@
-extern mod vfm { path = "./_gal/"; }
+extern mod vfm { path = "@{PATH}"; }
 
 mod  envs {
   env default {
