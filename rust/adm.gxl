@@ -1,4 +1,5 @@
-extern mod cfm { git = "https://github.com/galaxy-operators/cfm-gxl.git", branch = "${GXL_CHANNEL:develop}" }
+extern mod vfm { path = "./_gal/"; }
+
 mod  envs {
   env default {
      ROOT= "./";
