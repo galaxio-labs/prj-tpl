@@ -12,6 +12,7 @@ mod main   : ver_adm {
   }
 
 #[auto_load(exit)]
-  flow _set_ver | ver.set_cargo_ver {
+  flow _set_ver | ver.syn_file {
+    SYN_FILE= "${ENV_ROOT}/Cargo.toml";
   }
 }
